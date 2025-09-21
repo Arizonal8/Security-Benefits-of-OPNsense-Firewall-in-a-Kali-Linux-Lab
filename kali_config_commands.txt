@@ -1,0 +1,13 @@
+# Kali Linux commands to configure network interface for OPNsense LAN
+
+# Assign a static IP address to eth0
+sudo ip addr add 192.168.1.10/24 dev eth0
+
+# Add default gateway (OPNsense LAN IP)
+sudo ip route add default via 192.168.1.1
+
+# Test connectivity with OPNsense
+ping 192.168.1.1
+
+# Access OPNsense Web GUI through Firefox
+firefox https://192.168.1.1

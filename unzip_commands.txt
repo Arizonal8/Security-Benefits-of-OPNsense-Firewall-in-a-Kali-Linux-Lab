@@ -1,0 +1,2 @@
+# PowerShell command to unzip OPNsense image using bzip2
+tar -xvjf OPNsense-*.bz2
