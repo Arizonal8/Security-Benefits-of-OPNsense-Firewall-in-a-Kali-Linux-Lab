@@ -1,13 +1,13 @@
 # OPNsense Firewall Lab on VirtualBox
 
-## 📌 Project Overview
+##  Project Overview
 This project demonstrates how to install and configure **OPNsense Firewall** in a virtualized lab environment using **VirtualBox**. The goal was to route all Kali Linux traffic through the OPNsense firewall, ensuring network segmentation, monitoring, and security enforcement.  
 
 By setting up this environment, I created a controlled network where any traffic from Kali Linux must first pass through the OPNsense firewall before reaching the internet. This simulates a real-world security architecture where a firewall acts as the first line of defense against external threats.  
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 - **VirtualBox** – Virtualization platform  
 - **OPNsense** – Open-source firewall & routing platform  
 - **Kali Linux** – Security-focused Linux distribution for testing and monitoring  
@@ -15,7 +15,7 @@ By setting up this environment, I created a controlled network where any traffic
 
 ---
 
-## 🔑 Steps Taken
+##  Steps Taken
 
 ### 1. Download & Extract OPNsense
 - Downloaded the OPNsense installation image (`.bz2`) from the official website.  
@@ -52,14 +52,14 @@ By setting up this environment, I created a controlled network where any traffic
 
 ---
 
-## ✅ Results
+##  Results
 - Successfully established a virtual network where **all Kali Linux traffic flows through OPNsense**.  
 - Verified firewall GUI access and network reachability.  
 - Demonstrated the ability to control, monitor, and filter traffic.  
 
 ---
 
-## 🔒 Security Advantages
+##  Security Advantages
 
 1. **Network Segmentation**  
    - Separates internal traffic (Kali) from external internet access.  
@@ -83,14 +83,14 @@ By setting up this environment, I created a controlled network where any traffic
 
 ---
 
-## 🚀 How This Mitigates Attacks
+##  How This Mitigates Attacks
 - Prevents **direct internet access** from Kali → forces all traffic through a controlled firewall.  
 - Allows the application of **rules to block scanning, brute-force attempts, and malware communication**.  
 - Enables the testing of **firewall policies, intrusion detection systems, and secure configurations** in a safe environment.  
 
 ---
 
-## 📚 Learning Outcomes
+##  Learning Outcomes
 - Hands-on experience with **firewall configuration**.  
 - Understanding of **network interface assignments (WAN/LAN)**.  
 - Practical knowledge of **routing traffic through security appliances**.  
@@ -98,14 +98,12 @@ By setting up this environment, I created a controlled network where any traffic
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 - Enable **DHCP server** on LAN to dynamically assign IPs.  
 - Integrate **IDS/IPS (Suricata)** for deeper packet inspection.  
 - Add **VPN server on OPNsense** for secure remote connections.  
 - Connect multiple client VMs (Windows/Linux) for multi-host network simulation.  
 
 ---
-
-## 📌 Author
 **Arinze Fortune Ihekweme**  
 Cybersecurity Enthusiast | SOC & Cloud Security Learner  
